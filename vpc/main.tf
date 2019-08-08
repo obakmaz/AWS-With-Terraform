@@ -3,8 +3,8 @@
 # provider "aws" {
 
 #     version = "~> 2.0"
-#     access_key= "AKIAQ5TNC45RN4ZIPTNN"
-#     secret_key = "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"
+#     access_key= "xxx"
+#     secret_key = "yyy"
 #     region = "${var.region}"
 # }
 data "aws_availability_zones" "available" {}
