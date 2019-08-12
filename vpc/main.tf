@@ -1,12 +1,5 @@
 # query the available zones
 
-# provider "aws" {
-
-#     version = "~> 2.0"
-#     access_key= "XXXXXXXXXXX"
-#     secret_key = "YYYYYYYYYYYYYY"
-#     region = "${var.region}"
-# }
 data "aws_availability_zones" "available" {}
 
 resource "aws_vpc" "tf_vpc" {

@@ -1,5 +1,5 @@
 variable "region" {
-    default = "us-east-1"
+    default = "us-west-1"
 }
 # ---- storage variables ------
 variable "project_name" {
@@ -20,3 +20,13 @@ variable "public_cidrs" {
 variable "accesip" {
      default = "0.0.0.0/0"
 }
+
+# -----compute variables------------
+
+variable "key_name" {}
+variable "public_key_path" {}
+variable "instance_count"{
+    default = 1
+}
+
+variable "server_instance_type"{}
